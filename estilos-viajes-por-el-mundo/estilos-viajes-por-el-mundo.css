@@ -32,3 +32,23 @@
     font-weight: bold;
     border-bottom: solid rgb(red, green, blue);
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border: dotted 2px firebrick;
+    border-radius: 10px;
+}
+.fijar-posicion {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.menu {
+    grid-area: menú;
+}
