@@ -1,3 +1,5 @@
+
+
 .nav-bar ul {
     font-size: 18px;
     list-style-type: none;
@@ -53,11 +55,9 @@
     grid-area: menú;
 }
 
-/*<<<<<<< HEAD*/
 .nav-bar  li  a:hover{
     color: cadetblue;
 } 
-/*=======/*
 
 
 
@@ -74,4 +74,3 @@
     font: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*>>>>>>> 4845e2bcd6b481c3e1778c69635df431e157abae*/
