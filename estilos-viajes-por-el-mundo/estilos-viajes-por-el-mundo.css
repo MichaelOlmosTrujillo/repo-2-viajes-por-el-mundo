@@ -13,8 +13,9 @@
 }
 
 .nav-bar li:hover {
-    background-color: blue;
+   /* background-color: blue;*/
     border-radius: 10px;
+    /*color: red;*/
 }
 
 .nav-bar li:active {
@@ -52,3 +53,7 @@
 .menu {
     grid-area: menú;
 }
+
+.nav-bar  li  a:hover{
+    color: cadetblue;
+} 
