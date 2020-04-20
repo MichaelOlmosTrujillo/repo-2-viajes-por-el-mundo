@@ -52,3 +52,20 @@
 .menu {
     grid-area: menú;
 }
+
+
+
+
+
+/* Aquí van las clases del footer */
+
+.autor {
+    z-index: 10;
+    position: relative;
+    padding: 18px 10px 16px 30px;
+    border-top: 1px solid #4b4c4d;
+    background-color: #282a2b;
+    color: #8C8989;
+    font: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
