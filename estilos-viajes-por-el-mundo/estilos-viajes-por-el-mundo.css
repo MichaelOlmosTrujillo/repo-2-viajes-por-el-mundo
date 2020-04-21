@@ -1,4 +1,5 @@
 
+/* Comentarios del menú*/
 
 .nav-bar ul {
     font-size: 18px;
@@ -43,6 +44,7 @@
     border: dotted 2px firebrick;
     border-radius: 10px;
 }
+
 .fijar-posicion {
     position: sticky;
     top: 0px;
