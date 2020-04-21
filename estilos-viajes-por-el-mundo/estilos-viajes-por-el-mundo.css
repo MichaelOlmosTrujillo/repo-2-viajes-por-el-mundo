@@ -1,5 +1,5 @@
 
-/* Código del menú*/
+/* Clases del menú*/
 
 .nav-bar ul {
     font-size: 18px;
@@ -19,8 +19,9 @@
 
 .nav-bar li:hover {
    /* background-color: blue;*/
-    border-radius: 10px;
+   border-radius: 10px;
     /*color: red;*/
+      box-shadow: 3px 3px 3px rgb(77, 152, 153);
 }
 
 .nav-bar li:active {
@@ -41,10 +42,11 @@
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: green;
     border: dotted 2px firebrick;
     border-radius: 10px;
+    padding-left: 100px;
 }
 
 .fijar-posicion {
@@ -60,7 +62,7 @@
 }
 
 .nav-bar  li  a:hover{
-    color: cadetblue;
+    color: rgb(10, 76, 78);
 } 
 
 
