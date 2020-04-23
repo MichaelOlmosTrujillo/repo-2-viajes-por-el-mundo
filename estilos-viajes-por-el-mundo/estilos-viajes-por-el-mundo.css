@@ -69,6 +69,61 @@
 
 /*Comienzan las clases del main de Michael*/
 /*Comienzan las clases del main de Manuel*/
+.contenido-manu {
+    padding: 2fr;
+}
+
+.rowtitle1 {
+    display: flex;
+    align-items: center;
+}
+
+.line-title1-conteiner {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    align-items: center;
+
+}
+
+.contenedor-row-title1 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.line-title1-conteiner {
+    display: block;
+
+    position: relative;
+    height: 6px;
+
+}
+
+.line-title {
+    border-style: solid;
+    box-sizing: content-box;
+    border-color: #4ba0cb;
+    border-bottom-width: 0;
+
+}
+
+.flex-conteiner-man {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+
+
+}
+
+.grid-conteiner-man {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+
+}
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
