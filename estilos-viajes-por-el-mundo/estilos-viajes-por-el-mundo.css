@@ -124,6 +124,78 @@
     color: white;
 }
 
+/*Comienzan las clases del main de Manuel*/
+.contenido-manu {
+    padding: 2fr;
+}
+
+.rowtitle1 {
+    display: flex;
+    align-items: center;
+}
+
+.line-title1-conteiner {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    align-items: center;
+
+}
+
+.contenedor-row-title1 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.line-title1-conteiner {
+    display: block;
+
+    position: relative;
+    height: 6px;
+
+}
+
+.line-title {
+    border-style: solid;
+    box-sizing: content-box;
+    border-color: #4ba0cb;
+    border-bottom-width: 0;
+
+}
+
+.flex-conteiner-man {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+
+
+
+}
+
+.grid-conteiner-man {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
+
+}
+
+.grid-conteiner-man img {
+    width: 101%;
+    height: 101%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
 
 .banner-1-michael {
     /* Estilos de fondo */
@@ -280,8 +352,9 @@
 
 /* Aquí van las clases del footer */
 
+
 .autor {
-    z-index: 10;
+    /* z-index: 10; */
     position: relative;
     padding: 18px 10px 16px 30px;
     border-top: 1px solid #4b4c4d;
@@ -289,4 +362,20 @@
     color: #8C8989;
     font: 12px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container-about {
+    display: grid;
+    grid-template-areas:
+        'card card card card';
+    gap: 8px;
+    background-color: #363839;
+    padding: 10px;
+}
+
+.grid-item-card {
+    grid-area: card;
+    padding: 1em;
+    background-color: #282a2b;
+    border: 1px solid;
 }
