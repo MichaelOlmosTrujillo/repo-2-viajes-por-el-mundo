@@ -120,9 +120,9 @@
 .grid-conteiner-man {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
     padding: 20px;
-
+    align-items: center
 }
 
 /* Aquí inician las clases del semifooter */
