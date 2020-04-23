@@ -326,15 +326,41 @@ padding: 0;
     height: 101%;
     object-fit: cover;
 
+    transform: scale(1);
+
+    transition: all 500ms ease-in-out;
+
 }
+
+.grid-conteiner-man img:hover {
+
+    transform: scale(1.2);
+
+}
+
+.foto-main5 {
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
     grid-template-columns: auto auto;
     grid-gap: 0px;
     border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
     border: 101x solid black;
     display: grid;
+    border-bottom-style: solid;
 }
 
 .grid-articulos {
@@ -421,10 +447,55 @@ padding: 0;
 
     border-radius: 0px;
     border: 2px solid white;
+    color: white;
     text-align: center;
     margin: 1px;
-    padding: 1px;
+    padding: 20px;
     font-size: 20px;
+    width: 40%;
+    height: 25%;
+    margin-bottom: 1px;
+    background-color: rgba(58, 178, 233, 0.993);
+    transition-duration: 0.5s;
+}
+
+.call-action:hover {
+    background-color: white;
+    color: rgba(58, 178, 233, 0.993);
+}
+
+.call-action2:active {
+    background-color: rgba(58, 178, 233, 0.993);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.call-action2 {
+
+    border-radius: 0px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 25%;
+    margin: 1px;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background-color: rgb(105, 105, 245);
+}
+
+.call-action2:hover {
+    background-color: white;
+    color: rgb(105, 105, 245);
+}
+
+.call-action2:active {
+    background-color: rgb(105, 105, 245);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* Aquí terminan las clases del semifooter */
