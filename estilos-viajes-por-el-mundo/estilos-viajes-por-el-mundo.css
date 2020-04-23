@@ -68,12 +68,85 @@
 /*Aquí terminan las clases del menú*/
 
 /*Comienzan las clases del main de Michael*/
+/*Comienzan las clases del main de Manuel*/
+.contenido-manu {
+    padding: 2fr;
+}
+
+.rowtitle1 {
+    display: flex;
+    align-items: center;
+}
+
+.line-title1-conteiner {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    align-items: center;
+
+}
+
+.contenedor-row-title1 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.line-title1-conteiner {
+    display: block;
+
+    position: relative;
+    height: 6px;
+
+}
+
+.line-title {
+    border-style: solid;
+    box-sizing: content-box;
+    border-color: #4ba0cb;
+    border-bottom-width: 0;
+
+}
+
+.flex-conteiner-man {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+
+
+
+}
+
+.grid-conteiner-man {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
+
+}
+
+.grid-conteiner-man img {
+    width: 101%;
+    height: 101%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
     grid-template-columns: auto auto;
     grid-gap: 0px;
     border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
     border: 101x solid black;
     display: grid;
     border-bottom-style: solid;
@@ -166,17 +239,18 @@
     color: white;
     text-align: center;
     margin: 1px;
-    padding: 1px;
+    padding: 20px;
     font-size: 20px;
-    width: 60%;
-    margin-bottom: 0px;
+    width: 40%;
+    height: 25%;
+    margin-bottom: 1px;
     background-color: rgba(58, 178, 233, 0.993);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .call-action:hover {
-    background-color: rgba(58, 178, 233, 0.993);
-    color: white;
+    background-color: white;
+    color: rgba(58, 178, 233, 0.993);
 }
 
 .call-action2:active {
@@ -189,21 +263,22 @@
 
     border-radius: 0px;
     display: inline-block;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border: 2px solid white;
     color: white;
     text-align: center;
-    width: 60%;
+    width: 40%;
+    height: 25%;
     margin: 1px;
-    padding: 1px;
+    padding: 20px;
     font-size: 15px;
     margin-bottom: 0px;
     background-color: rgb(105, 105, 245);
 }
 
 .call-action2:hover {
-    background-color: rgb(105, 105, 245);
-    color: white;
+    background-color: white;
+    color: rgb(105, 105, 245);
 }
 
 .call-action2:active {
@@ -244,4 +319,10 @@
     padding: 1em;
     background-color: #282a2b;
     border: 1px solid;
+    /*no <<<<<<< HEAD
 }
+/*holaaaa*
+=======
+}
+
+>>>>>>>9c75a313d27a28c03d7c512bbda83ccf5d4fabcd
