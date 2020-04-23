@@ -1,0 +1,97 @@
+.grid-mochila {
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    border-radius: 20px;
+    border: 101x solid black;
+    display: grid;
+}
+
+.grid-articulos {
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    border-radius: 20px;
+    border: 101x solid black;
+    display: grid;
+}
+
+.grid-camaraequipo {
+
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.grid-mochilaviaje {
+
+    border-radius: 0px;
+    border: 0px solid black;
+    background-color: rgba(58, 178, 233, 0.993);
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.grid-planearviaje {
+
+    border-radius: 0px;
+    border: 0px solid black;
+    background-color: rgb(105, 105, 245);
+    text-align: center;
+    padding: 1em;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.grid-mochilaccesorio {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.grid-mochilaccesorio img {
+    margin: 1px;
+    padding: 3px;
+}
+
+.grid-mochilaccesorio p {
+    text-align: left;
+    margin: 1px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.grid-camaraequipo img {
+    margin: 1px;
+    padding: 1px;
+
+}
+
+.grid-camaraequipo p {
+    text-align: left;
+    margin: 1px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+
+
+.call-action {
+
+    border-radius: 0px;
+    border: 2px solid white;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
+}

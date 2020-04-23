@@ -8,12 +8,35 @@
     /* text-align: center;*/
 }
 
+/*.nav-bar-1 ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0em;
+padding: 0;
+/* text-align: center;
+}*/
+
+
 .nav-bar li {
     display: inline-block;
     text-align: center;
     padding: 5px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar-1 li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+
+.menu-1-word {
+    font-size: 10px;
 }
 
 .nav-bar li:hover {
@@ -34,6 +57,19 @@
     padding: 5px;
 }
 
+.nav-bar-1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.margen-menu-1 {
+    margin: 0;
+}
+
+
+
 .selected {
     font-weight: bold;
     border-bottom: solid rgb(red, green, blue);
@@ -43,9 +79,18 @@
     display: flex;
     justify-content: left;
     background-color: green;
-    border: dotted 2px firebrick;
-    border-radius: 10px;
+    /*border: dotted 2px firebrick;*/
+    /*border-radius: 10px;*/
     padding-left: 100px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: right;
+    background-color: green;
+    /*border: dotted 2px firebrick;*/
+    /*border-radius: 10px;*/
+    padding-left: 500px;
 }
 
 .fijar-posicion {
@@ -57,17 +102,127 @@
 
 }
 
-.menu {
-    grid-area: menú;
-}
 
 .nav-bar li a:hover {
     color: rgb(10, 76, 78);
 }
 
+
+
+.nav-bar-1 {
+
+    background-color: rgb(14, 134, 233);
+}
+
 /*Aquí terminan las clases del menú*/
 
 /*Comienzan las clases del main de Michael*/
+.card-main-michael {
+    border: solid 1px #282a2b;
+}
+
+.banner-container-michael {
+    /*height: 350px;*/
+
+    width: 90%;
+    /*margin: 300px auto;*/
+    /*overflow: hidden;*/
+    /*display: flex;
+    */
+    /*justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*position: relative;*/
+    /* z-index: -1;*/
+
+    /* background-image: url("https: //www.miviajeporelmundo.com/wp-content/uploads/2017/02/destinos-mi-viaje-por-el-mundo.jpg");
+*/
+}
+
+.banner-michael {
+    height: 100%;
+    width: 99.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Estilos de fondo */
+    background-size: cover;
+    /*background-position: center;*/
+
+    /* Con attachment: fixed; 
+     nuestro banner ahora es como una ventana
+  */
+    background-attachment: fixed;
+}
+
+.banner-michael h1 {
+    font-size: 70px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: white;
+
+}
+
+.banner-michael p {
+    font-size: 54px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: white;
+}
+
+.banner-1-michael {
+    /* Estilos de fondo */
+    /* Los siguientes códigos representan un color
+     Negro con 50% de transparencia:
+       rgba(0, 0, 0, 0.5)
+       #00000050
+  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #00000050),
+        url("https://www.miviajeporelmundo.com/wp-content/uploads/2017/02/destinos-mi-viaje-por-el-mundo.jpg");
+
+    /* Estilos para que al hacer una transformación,
+     El cambio no sea brusco y dure 0.5 segundos
+  */
+    transition: transform 0.5s;
+}
+
+.banner-container-michael img {
+    display: block;
+}
+
+.background-color-michael {
+    background-color: white;
+}
+
+.padding-michael-globo {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.padding-zona-blanca {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.estilo-p-michael {
+    font-size: 23px;
+    color: gray;
+    line-height: 35px;
+
+}
+
+.card-mapa-azul {
+    padding: 50px;
+}
+
+/*.center-1 {}*/
+
+
 /*Comienzan las clases del main de Manuel*/
 .contenido-manu {
     padding: 2fr;
@@ -133,12 +288,6 @@
     object-fit: cover;
 
 }
-
-
-
-
-
-
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
@@ -289,7 +438,7 @@
 
 /* Aquí terminan las clases del semifooter */
 
-/*Comienzan las clases del main de Manuel*/
+
 
 /* Aquí van las clases del footer */
 
@@ -319,10 +468,4 @@
     padding: 1em;
     background-color: #282a2b;
     border: 1px solid;
-    /*no <<<<<<< HEAD
 }
-/*holaaaa*
-=======
-}
-
->>>>>>>9c75a313d27a28c03d7c512bbda83ccf5d4fabcd
