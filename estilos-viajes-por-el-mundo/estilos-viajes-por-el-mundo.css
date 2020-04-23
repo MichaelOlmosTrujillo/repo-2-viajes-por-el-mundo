@@ -1,4 +1,38 @@
 /* Clases del menú*/
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: rgb(14, 134, 233);
+    color: white;
+
+}
+
+.fa-twitter {
+    background: rgb(14, 134, 233);
+    color: white;
+
+}
+
+.fa-instagram {
+    background: rgb(14, 134, 233);
+    color: white;
+}
+
+.fa-pinterest {
+    background: rgb(14, 134, 233);
+    color: white;
+}
 
 .nav-bar ul {
     font-size: 18px;
@@ -43,7 +77,7 @@ padding: 0;
     /* background-color: blue;*/
     border-radius: 10px;
     /*color: red;*/
-    box-shadow: 2px 2px rgb(113, 145, 145);
+    box-shadow: 2px 2px rgb(113, 145, 115);
 }
 
 .nav-bar li:active {
@@ -68,6 +102,11 @@ padding: 0;
     margin: 0;
 }
 
+.margen-menu-2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 
 .selected {
@@ -78,7 +117,7 @@ padding: 0;
 .flex {
     display: flex;
     justify-content: left;
-    background-color: green;
+    /*background-color: rgb(11, 4, 112);*/
     /*border: dotted 2px firebrick;*/
     /*border-radius: 10px;*/
     padding-left: 100px;
@@ -87,10 +126,10 @@ padding: 0;
 .flex-nav {
     display: flex;
     justify-content: right;
-    background-color: green;
+    /*  background-color: rgb(11, 4, 112);*/
     /*border: dotted 2px firebrick;*/
     /*border-radius: 10px;*/
-    padding-left: 500px;
+    padding-left: 50px;
 }
 
 .fijar-posicion {
@@ -104,7 +143,7 @@ padding: 0;
 
 
 .nav-bar li a:hover {
-    color: rgb(10, 76, 78);
+    color: rgba(5, 73, 175, 0.705);
 }
 
 
