@@ -76,6 +76,7 @@
     border-radius: 20px;
     border: 101x solid black;
     display: grid;
+    border-bottom-style: solid;
 }
 
 .grid-articulos {
@@ -162,10 +163,53 @@
 
     border-radius: 0px;
     border: 2px solid white;
+    color: white;
     text-align: center;
     margin: 1px;
     padding: 1px;
     font-size: 20px;
+    width: 60%;
+    margin-bottom: 0px;
+    background-color: rgba(58, 178, 233, 0.993);
+    transition-duration: 1s;
+}
+
+.call-action:hover {
+    background-color: rgba(58, 178, 233, 0.993);
+    color: white;
+}
+
+.call-action2:active {
+    background-color: rgba(58, 178, 233, 0.993);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.call-action2 {
+
+    border-radius: 0px;
+    display: inline-block;
+    transition-duration: 1s;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 1px;
+    padding: 1px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background-color: rgb(105, 105, 245);
+}
+
+.call-action2:hover {
+    background-color: rgb(105, 105, 245);
+    color: white;
+}
+
+.call-action2:active {
+    background-color: rgb(105, 105, 245);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* Aquí terminan las clases del semifooter */
@@ -201,4 +245,3 @@
     background-color: #282a2b;
     border: 1px solid;
 }
-
