@@ -43,8 +43,8 @@
     display: flex;
     justify-content: left;
     background-color: green;
-    border: dotted 2px firebrick;
-    border-radius: 10px;
+    /*border: dotted 2px firebrick;*/
+    /*border-radius: 10px;*/
     padding-left: 100px;
 }
 
@@ -68,6 +68,9 @@
 /*Aquí terminan las clases del menú*/
 
 /*Comienzan las clases del main de Michael*/
+.card-main-michael {
+    border: solid 1px #282a2b;
+}
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
