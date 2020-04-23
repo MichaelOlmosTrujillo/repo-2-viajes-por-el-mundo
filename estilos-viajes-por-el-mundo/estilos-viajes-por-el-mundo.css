@@ -115,15 +115,30 @@
     padding: 20px;
 
 
+
 }
 
 .grid-conteiner-man {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    padding: 20px;
-    align-items: center
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
+
 }
+
+.grid-conteiner-man img {
+    width: 101%;
+    height: 101%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
