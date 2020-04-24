@@ -178,11 +178,11 @@
 .autor {
     /* z-index: 10; */
     position: relative;
-    padding: 18px 10px 16px 30px;
+    padding: 18px 10px 18px 30px;
     border-top: 1px solid #4b4c4d;
     background-color: #282a2b;
     color: #8C8989;
-    font: 12px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -190,15 +190,79 @@
     display: grid;
     grid-template-areas:
         'card card card card';
-    gap: 8px;
     background-color: #363839;
-    padding: 10px;
+    position: relative;
+    padding: 8px 10px 18px 10px;
+    border-top: 12px solid #e9eaee;
+    background-repeat: repeat;
+    background-color: #363839;
+    background-size: initial;
+    background-position: top left;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    
 }
+
 
 .grid-item-card {
     grid-area: card;
-    padding: 1em;
-    background-color: #282a2b;
-    border: 1px solid;
+    padding: 10px 10px 30px 10px;
+    gap: 10px;
+    background-color: #363838;
+    position: relative;
+    margin: 10px;
+    grid-template-areas:
+        'card card card card';
+    
+                                               
 }
 
+.menu-footer2>li {
+    list-style-type: ">";
+    color: #8C8989;
+    font-size: 14px;
+    margin: 0px;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    border-bottom: 1px dotted #8C8989;
+    padding: 10px 10px 10px 12px;
+    
+}
+
+li:hover {
+    color: #4ba0cb;
+    text-decoration: none;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    
+}
+
+.links {
+    color: #8C8989;
+    text-decoration: none;
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #bfbfbf;
+}
+
+a:hover {
+    color: #4ba0cb;
+    /* border-bottom-style: solid; */
+    
+}
+
+.h4-footer {
+    color: #bfbfbf;
+    font-size: 14px;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+
+}
+
+.aviso-publicidad>p {
+    color: #8C8989;
+    font-size: 16px;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    margin: 30px 50px 30px 30px;
+    line-height: 200%;
+}
