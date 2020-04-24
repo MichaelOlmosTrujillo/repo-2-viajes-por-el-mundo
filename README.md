@@ -1,8 +1,8 @@
-#repo-2-viajes-por-el-mundo 
+# repo-2-viajes-por-el-mundo 
 
 Grupo 5
 
-Participantes:
+## Participantes:
 
 - Tatiana Velandia
 - Michel Olmos
