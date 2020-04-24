@@ -1,6 +1,8 @@
-# repo-2-viajes-por-el-mundo
-# manuel hola
-# NUEVO
-Hola soy Tatiana
+#repo-2-viajes-por-el-mundo Grupo 5
 
-Prueba para pull
+Participantes:
+
+- Tatiana Velandia
+- Michel Olmos
+- Manuel Bedoya
+- Weimar Mesa
