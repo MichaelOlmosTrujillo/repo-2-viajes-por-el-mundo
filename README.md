@@ -1,6 +1,6 @@
 # repo-2-viajes-por-el-mundo 
 
-Grupo 5
+- Grupo 5
 
 ## Participantes:
 
