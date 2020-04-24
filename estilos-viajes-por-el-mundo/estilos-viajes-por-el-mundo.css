@@ -1,4 +1,38 @@
 /* Clases del menú*/
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #4ba0cb;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #4ba0cb;
+    color: white;
+
+}
+
+.fa-instagram {
+    background: #4ba0cb;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #4ba0cb;
+    color: white;
+}
 
 .nav-bar ul {
     font-size: 18px;
@@ -8,6 +42,21 @@
     /* text-align: center;*/
 }
 
+.titulo-principal {
+    padding: 20px, 30px, 10px;
+    
+}
+
+
+/*.nav-bar-1 ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0em;
+padding: 0;
+/* text-align: center;
+}*/
+
+
 .nav-bar li {
     display: inline-block;
     text-align: center;
@@ -16,11 +65,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.nav-bar-1 li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+
+.menu-1-word>a {
+    font-size: 12px;
+    
+}
+
 .nav-bar li:hover {
     /* background-color: blue;*/
     border-radius: 10px;
     /*color: red;*/
-    box-shadow: 2px 2px rgb(113, 145, 145);
+    box-shadow: 2px 2px rgb(113, 145, 115);
 }
 
 .nav-bar li:active {
@@ -34,6 +98,24 @@
     padding: 5px;
 }
 
+.nav-bar-1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.margen-menu-1 {
+    margin: 0;
+}
+
+.margen-menu-2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
 .selected {
     font-weight: bold;
     border-bottom: solid rgb(red, green, blue);
@@ -42,10 +124,19 @@
 .flex {
     display: flex;
     justify-content: left;
-    background-color: green;
-    border: dotted 2px firebrick;
-    border-radius: 10px;
+    /*background-color: rgb(11, 4, 112);*/
+    /*border: dotted 2px firebrick;*/
+    /*border-radius: 10px;*/
     padding-left: 100px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: right;
+    /*  background-color: rgb(11, 4, 112);*/
+    /*border: dotted 2px firebrick;*/
+    /*border-radius: 10px;*/
+    padding-left: 50px;
 }
 
 .fijar-posicion {
@@ -57,25 +148,228 @@
 
 }
 
-.menu {
-    grid-area: menú;
-}
 
 .nav-bar li a:hover {
-    color: rgb(10, 76, 78);
+    color: rgba(5, 73, 175, 0.705);
+}
+
+
+
+.nav-bar-1 {
+
+    /* background-color: rgb(14, 134, 233); con este cambio, queda cn el mismo color de la página original */
+    background-color: #4ba0cb;
 }
 
 /*Aquí terminan las clases del menú*/
 
 /*Comienzan las clases del main de Michael*/
+.card-main-michael {
+    border: solid 1px #282a2b;
+}
+
+.banner-container-michael {
+    /*height: 350px;*/
+
+    width: 90%;
+    /*margin: 300px auto;*/
+    /*overflow: hidden;*/
+    /*display: flex;
+    */
+    /*justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*position: relative;*/
+    /* z-index: -1;*/
+
+    /* background-image: url("https: //www.miviajeporelmundo.com/wp-content/uploads/2017/02/destinos-mi-viaje-por-el-mundo.jpg");
+*/
+}
+
+.banner-michael {
+    height: 100%;
+    width: 99.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Estilos de fondo */
+    background-size: cover;
+    /*background-position: center;*/
+
+    /* Con attachment: fixed; 
+     nuestro banner ahora es como una ventana
+  */
+    background-attachment: fixed;
+}
+
+.banner-michael h1 {
+    font-size: 70px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: white;
+
+}
+
+.banner-michael p {
+    font-size: 54px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: white;
+}
+
+.banner-1-michael {
+    /* Estilos de fondo */
+    /* Los siguientes códigos representan un color
+     Negro con 50% de transparencia:
+       rgba(0, 0, 0, 0.5)
+       #00000050
+  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #00000050),
+        url("https://www.miviajeporelmundo.com/wp-content/uploads/2017/02/destinos-mi-viaje-por-el-mundo.jpg");
+
+    /* Estilos para que al hacer una transformación,
+     El cambio no sea brusco y dure 0.5 segundos
+  */
+    transition: transform 0.5s;
+}
+
+.banner-container-michael img {
+    display: block;
+}
+
+.background-color-michael {
+    background-color: white;
+}
+
+.padding-michael-globo {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.padding-zona-blanca {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.estilo-p-michael {
+    font-size: 23px;
+    color: gray;
+    line-height: 35px;
+
+}
+
+.card-mapa-azul {
+    padding: 50px;
+}
+
+/*.center-1 {}*/
+
+
+/*Comienzan las clases del main de Manuel*/
+.contenido-manu {
+    padding: 2fr;
+}
+
+.rowtitle1 {
+    display: flex;
+    align-items: center;
+}
+
+.line-title1-conteiner {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    align-items: center;
+
+}
+
+.contenedor-row-title1 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.line-title1-conteiner {
+    display: block;
+
+    position: relative;
+    height: 6px;
+
+}
+
+.line-title {
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: content-box;
+    border-color: #4ba0cb;
+    border-bottom-width: 0;
+
+}
+
+.flex-conteiner-man {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+
+
+
+}
+
+.grid-conteiner-man {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
+
+}
+
+.grid-conteiner-man img {
+    width: 101%;
+    height: 101%;
+    object-fit: cover;
+
+    transform: scale(1);
+
+    transition: all 500ms ease-in-out;
+
+}
+
+.grid-conteiner-man img:hover {
+
+    transform: scale(1.2);
+
+}
+
+.foto-main5 {
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
 
 /* Aquí inician las clases del semifooter */
 .grid-mochila {
     grid-template-columns: auto auto;
     grid-gap: 0px;
     border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
     border: 101x solid black;
     display: grid;
+    border-bottom-style: solid;
 }
 
 .grid-articulos {
@@ -162,15 +456,60 @@
 
     border-radius: 0px;
     border: 2px solid white;
+    color: white;
     text-align: center;
     margin: 1px;
-    padding: 1px;
+    padding: 20px;
     font-size: 20px;
+    width: 40%;
+    height: 25%;
+    margin-bottom: 1px;
+    background-color: rgba(58, 178, 233, 0.993);
+    transition-duration: 0.5s;
+}
+
+.call-action:hover {
+    background-color: white;
+    color: rgba(58, 178, 233, 0.993);
+}
+
+.call-action2:active {
+    background-color: rgba(58, 178, 233, 0.993);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.call-action2 {
+
+    border-radius: 0px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 25%;
+    margin: 1px;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background-color: rgb(105, 105, 245);
+}
+
+.call-action2:hover {
+    background-color: white;
+    color: rgb(105, 105, 245);
+}
+
+.call-action2:active {
+    background-color: rgb(105, 105, 245);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* Aquí terminan las clases del semifooter */
 
-/*Comienzan las clases del main de Manuel*/
+
 
 /* Aquí van las clases del footer */
 
